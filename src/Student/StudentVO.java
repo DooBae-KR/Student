@@ -1,12 +1,29 @@
 package Student;
 
 public class StudentVO {
-    public void setMathScore(int mathScore) {
-        this.mathScore = mathScore;
-     }
-  
-  
-     public int getKorScore() {
-        return korScore;
-     }
+
+	private String name;
+	private int korScore;
+	private int engScore;
+	private int mathScore;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setKorScore(int korScore) {
+		this.korScore = korScore;
+	}
+
+	public void setEngScore(int engScore) {
+		this.engScore = engScore;
+	}
+
+	public void setMathScore(int mathScore) {
+		this.mathScore = mathScore;
+	}
+
+	public int getKorScore() {
+		return korScore;
+	}
 }
