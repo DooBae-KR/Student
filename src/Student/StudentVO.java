@@ -26,4 +26,18 @@ public class StudentVO {
 	public int getKorScore() {
 		return korScore;
 	}
+	
+	   public int getMathScore() {
+		      return mathScore;
+		   }
+
+
+		   public int getEngScore() {
+		      return engScore;
+		   }
+
+
+		   public void setName(String name) {
+		      this.name = name;
+		   }
 }
